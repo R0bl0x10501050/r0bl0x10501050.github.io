@@ -4,4 +4,4 @@ Here on GitHub Pages, I host my Roblox projects such as RStore and Part-To-Lua, 
 
 ### Project Links
 * [RStore](https://r0bl0x10501050.github.io/RStore/)
-* [Part-To-Lua](https://google.com)
+* [Part-To-Lua](https://r0bl0x10501050.github.io/Part-To-Lua/)
