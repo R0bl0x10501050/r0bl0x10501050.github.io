@@ -1,3 +1,24 @@
+site_name: R0bl0x10501050
+site_url: https://r0bl0x10501050.github.io/
+
 theme:
   name: material
-site_name: R0bl0x10501050
+  palette:
+  
+  # Light mode
+    - light blue: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Turn Off The Lights
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Turn On The Lights
