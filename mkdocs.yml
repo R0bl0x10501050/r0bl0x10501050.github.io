@@ -1,0 +1,53 @@
+site_name: R0bl0x10501050
+site_url: https://r0bl0x10501050.github.io/
+repo_name: R0bl0x10501050/r0bl0x10501050.github.io
+repo_url: https://github.com/R0bl0x10501050/r0bl0x10501050.github.io
+
+theme:
+  name: material
+  palette:
+  
+  # Light mode
+    - light blue: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Turn Off The Lights
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Turn On The Lights
+  icon:
+    logo: material/magnify
+  favicon: assets/images/magnify.svg
+  features:
+    - header.autohide
+    - navigation.top
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/R0bl0x10501050
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@R0bl0x10501050
+      
+nav:
+  - Home: index.md
+  - Projects: projects.md
+    
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - meta
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
