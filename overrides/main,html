@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="R0bl0x10501050">
+  <meta property="og:title" content="Title">
+  <meta property="og:author" content="R0bl0x10501050">
+  <meta property="og:description" content="Learn about me on GitHub.">
+  <meta name="twitter:title" content="R0bl0x10501050">
+  <meta name="twitter:description" content="Learn about me on GitHub.">
+  <meta name="twitter:creator" content="@R0bl0x10501050">
+  <meta name="twitter:card" content="summary_large_image">
+{% endblock %}
